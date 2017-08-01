@@ -1,0 +1,77 @@
+#papel{
+    width: 900px;
+    height: 600px;
+    background-color: aquamarine;
+    position: relative; /*esta es relative, todas las demás absolute ya que están en función de papel*/
+}
+#sol{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid orange;
+    top: 50px;
+    left: 50px;
+    
+}
+#nubes{
+    position: absolute;
+    width: 950px;
+    height: 210px;
+    background: url(nubes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 400px;
+    
+}
+#casa{
+    position: absolute;
+    width: 200px;
+    height: 330px;
+    background-color:transparent;
+    bottom: 0;
+    left: 250px;
+    
+}
+
+.tejado{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    background: url(tejado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 180px;
+    
+    
+}
+.fachada{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    background-color: red;
+    bottom: 0;
+    background: url(fachada.png);
+}
+.puerta{
+   position: absolute;
+    width: 70px;
+    height: 100px;
+    background-color: red;
+    bottom: 0;
+    left: 75px;
+    background: url(puerta.png);
+    background-size: cover; 
+    
+}
+.chimenea{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-color: sandybrown;   
+}
+.humo{
+    
+}
+

@@ -1,24 +1,25 @@
 #papel{
     width: 900px;
     height: 600px;
-    background-color: aquamarine;
+    background-color: skyblue;
     position: relative; /*esta es relative, todas las demás absolute ya que están en función de papel*/
 }
 #sol{
     position: absolute;
     width: 120px;
     height: 120px;
-    background-color: yellow;
-    border-radius: 50%;
-    border: 2px solid orange;
+    background-color: transparent;
     top: 50px;
     left: 50px;
+    background: url(sol.png);
+    background-size: cover;
     
 }
 #nubes{
     position: absolute;
     width: 950px;
     height: 210px;
+    background-color: transparent;
     background: url(nubes.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -71,7 +72,35 @@
     height: 30px;
     background-color: sandybrown;   
 }
-.humo{
+#humo{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background: url(humo.png);
+    background-size: contain;
+    bottom: 330px;
+    left: 250px;  
+}
+#chico{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    bottom: 0;
+    left: 125px; 
+    background-color: transparent;
+    background-image: url(chico.png);   
+}
+#arbol{
+    position: absolute;
+    width: 380px;
+    height: 250px;
+    background-color: transparent;
+    right: 1px;
+    bottom: 0;
+    background-image: url("arbol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
